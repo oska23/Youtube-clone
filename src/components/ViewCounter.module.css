@@ -1,0 +1,58 @@
+.views {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.views,
+.views1 {
+  position: relative;
+  line-height: 26px;
+}
+.viewsParent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.div {
+  position: relative;
+  line-height: 20px;
+}
+.wrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.may252018 {
+  margin: 0;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameGroup,
+.frameParent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.frameParent {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: left;
+  font-size: 16px;
+  color: #75839d;
+  font-family: Inter;
+}

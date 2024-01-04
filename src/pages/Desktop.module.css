@@ -1,0 +1,95 @@
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 15px;
+  background-color: #e6e1e1;
+  overflow: hidden;
+}
+.hoursOfBirdsSingingInTheWrapper {
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameContainer,
+.frameDiv,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 10px;
+}
+.frameContainer,
+.frameDiv {
+  flex-direction: column;
+}
+.frameContainer {
+  height: 565px;
+  padding: 0 17px;
+  box-sizing: border-box;
+  gap: 28px;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 27px;
+}
+.desktop,
+.frameGroup,
+.frameParent,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  width: 494px;
+  flex-direction: column;
+  padding: 0 23px;
+  box-sizing: border-box;
+  gap: 9px;
+}
+.desktop,
+.frameParent {
+  gap: 27px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+}
+.desktop {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 876px;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  color: #090b0d;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .frameGroup {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameParent1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .frameParent {
+    flex: 1;
+    flex-direction: column;
+  }
+  .desktop {
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+}

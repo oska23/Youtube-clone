@@ -1,0 +1,241 @@
+.vectorIcon,
+.vectorIcon1 {
+  position: relative;
+  width: 18px;
+  height: 12px;
+  object-fit: cover;
+}
+.vectorIcon1 {
+  display: none;
+}
+.menu {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 9px;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  position: relative;
+  width: 26.8px;
+  height: 26px;
+  object-fit: cover;
+  z-index: 0;
+}
+.vectorIcon3 {
+  position: absolute;
+  margin: 0 !important;
+  height: 30%;
+  width: 30.22%;
+  top: 24.23%;
+  right: 23.88%;
+  bottom: 45.77%;
+  left: 45.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frame1 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: 10px;
+}
+.frameIcon {
+  position: relative;
+  width: 88.5px;
+  height: 16px;
+  object-fit: cover;
+}
+.frameGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameGroup,
+.menuParent {
+  flex-shrink: 0;
+  gap: 4px;
+}
+.frame,
+.inputPlaceholder,
+.menuParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame {
+  flex-shrink: 0;
+}
+.inputPlaceholder {
+  border: 0;
+  outline: 0;
+  font-family: Inter;
+  font-size: 14px;
+  background-color: transparent;
+  flex: 1;
+  color: #000;
+}
+.vectorIcon4 {
+  position: absolute;
+  height: 83.5%;
+  width: 83.5%;
+  top: 8%;
+  right: 8.5%;
+  bottom: 8.5%;
+  left: 8%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.microphonesolidIcon,
+.searchsolid {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.searchsolid {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.microphonesolidIcon {
+  object-fit: cover;
+}
+.inputField,
+.microphonesolidWrapper,
+.searchsolidParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.microphonesolidWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 20px;
+  flex-shrink: 0;
+}
+.inputField,
+.searchsolidParent {
+  gap: 11px;
+}
+.inputField {
+  flex: 1;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #9ea8ba;
+  box-sizing: border-box;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 12px;
+  gap: 24px;
+}
+.vectorIcon5 {
+  position: absolute;
+  height: 33.33%;
+  width: 55.56%;
+  top: 33.33%;
+  right: 22.22%;
+  bottom: 33.33%;
+  left: 22.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.videosolid {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 55.56%;
+  width: 44.44%;
+  top: 22.22%;
+  right: 27.78%;
+  bottom: 22.22%;
+  left: 27.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.avatarIcon {
+  position: relative;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.videosolidParent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 9px 20px 6px;
+  gap: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    height: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .frameIcon {
+    display: none;
+  }
+  .frameGroup {
+    width: auto;
+    align-self: unset;
+  }
+  .videosolid {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .frame1 {
+    display: none;
+  }
+}

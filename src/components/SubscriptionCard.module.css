@@ -1,0 +1,87 @@
+.avatarsmallIcon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.avatarsmallWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.whitneyBlessing {
+  position: relative;
+  line-height: 26px;
+}
+.whitneyBlessingWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.whitneygmailcom {
+  position: relative;
+  line-height: 22px;
+}
+.details,
+.frameGroup,
+.whitneygmailcomWrapper {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.whitneygmailcomWrapper {
+  flex-direction: row;
+  font-size: 14px;
+  color: #75839d;
+}
+.details,
+.frameGroup {
+  flex-direction: column;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+.text {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.frameParent,
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  background-color: #0061ff;
+  border-radius: 8px;
+  width: 141px;
+  flex-shrink: 0;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 17px;
+  text-align: left;
+  font-size: 16px;
+  color: #090b0d;
+  font-family: Inter;
+}

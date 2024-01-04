@@ -1,0 +1,236 @@
+.approve2Icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div {
+  flex: 1;
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #75839d;
+  text-align: left;
+}
+.approve2Parent,
+.wrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrapper {
+  width: 28px;
+  justify-content: flex-start;
+}
+.approve2Parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  gap: 4px;
+}
+.approve1Icon {
+  position: relative;
+  width: 24px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dislike {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #75839d;
+  text-align: left;
+}
+.approve1Parent,
+.dislikeWrapper,
+.frameContainer {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dislikeWrapper {
+  width: 52px;
+  justify-content: flex-start;
+}
+.approve1Parent,
+.frameContainer {
+  gap: 4px;
+}
+.approve1Parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: flex-start;
+}
+.frameContainer {
+  justify-content: center;
+}
+.vectorIcon {
+  position: relative;
+  width: 20px;
+  height: 18px;
+  object-fit: cover;
+}
+.frameWrapper,
+.shareoutline,
+.shareoutlineParent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shareoutline {
+  overflow: hidden;
+  flex-direction: column;
+  padding: 3px 2px;
+}
+.frameWrapper,
+.shareoutlineParent {
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.shareoutlineParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  gap: 3px;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 18px;
+  height: 20px;
+  object-fit: cover;
+}
+.downloadAltoutline {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 3px;
+}
+.downloadAltoutlineParent,
+.downloadWrapper,
+.frameDiv {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.downloadWrapper {
+  justify-content: center;
+  padding: 10px;
+}
+.downloadAltoutlineParent,
+.frameDiv {
+  justify-content: flex-start;
+}
+.downloadAltoutlineParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.frameDiv {
+  gap: 10px;
+}
+.vectorIcon2 {
+  position: relative;
+  width: 13.9px;
+  height: 20px;
+  object-fit: cover;
+}
+.bookmarkFullsolid {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 5px;
+}
+.bookmark {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #0061ff;
+  text-align: left;
+}
+.bookmarkFullsolidParent {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 99px;
+  height: 24px;
+}
+.frameGroup {
+  width: 425px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ytpId43 {
+  position: relative;
+  width: 14.4px;
+  height: 17.8px;
+  object-fit: cover;
+}
+.frameParent,
+.icon {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.icon {
+  cursor: pointer;
+  border: 0;
+  padding: 11px 12px;
+  background-color: #fff;
+  overflow: hidden;
+  display: none;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  font-size: 16px;
+  color: #75839d;
+  font-family: Inter;
+}
+@media screen and (max-width: 1377px) {
+  .frameGroup {
+    display: none;
+  }
+  .icon {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .frameDiv {
+    display: flex;
+  }
+}

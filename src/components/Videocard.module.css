@@ -1,0 +1,153 @@
+.frameChild {
+  border-radius: 14px;
+  width: 189px;
+  height: 125px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.natureSoundsIn,
+.text {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.natureSoundsIn {
+  align-self: stretch;
+  line-height: 26px;
+}
+.text {
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  width: 97px;
+  flex-shrink: 0;
+}
+.vectorIcon {
+  position: relative;
+  width: 12.8px;
+  height: 12.8px;
+  object-fit: cover;
+}
+.checkCircle {
+  overflow: hidden;
+  align-items: center;
+  padding: 2px;
+}
+.checkCircle,
+.iconText,
+.textParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.iconText {
+  height: 22px;
+  align-items: center;
+}
+.textParent {
+  align-items: flex-start;
+  gap: 8px;
+}
+.mViews {
+  position: relative;
+  line-height: 22px;
+}
+.mViewsWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mViewsContainer {
+  margin-left: -1px;
+}
+.frameDiv,
+.mViewsContainer {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div,
+.yearsAgo1 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+}
+.yearsAgo1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameParent1,
+.frameWrapper {
+  flex-shrink: 0;
+  align-items: center;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.frameWrapper {
+  flex: 1;
+  padding: 0 4px;
+  font-size: 14px;
+}
+.frameContainer,
+.frameGroup,
+.frameWrapper,
+.leftParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.leftParent {
+  flex: 1;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 1px;
+  font-size: 12px;
+}
+.frameContainer,
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 6px;
+}
+.frameGroup {
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5px;
+  font-size: 14px;
+  color: #75839d;
+}
+.natureSoundsInTheForestParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+.frameParent {
+  align-self: stretch;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #090b0d;
+  font-family: Inter;
+}
