@@ -8,7 +8,9 @@ const Header = ({ useravatar }) => {
       <div className={styles.frame}>
         <div className={styles.menuParent}>
           <button className={styles.menu}>
-            <img className={styles.vectorIcon} alt="" src="/vector@2x.png" />
+            <div className={styles.vectorWrapper}>
+              <img className={styles.vectorIcon} alt="" src="/vector@2x.png" />
+            </div>
             <img className={styles.vectorIcon1} alt="" src="/vector1@2x.png" />
           </button>
           <button className={styles.frameGroup}>
@@ -24,7 +26,10 @@ const Header = ({ useravatar }) => {
                 src="/vector3@2x.png"
               />
             </div>
-            <img className={styles.frameIcon} alt="" src="/frame@2x.png" />
+            <div className={styles.frame2}>
+              <img className={styles.vectorIcon4} alt="" src="/vector@2x.png" />
+              <img className={styles.groupIcon} alt="" src="/group@2x.png" />
+            </div>
           </button>
         </div>
       </div>
@@ -38,7 +43,7 @@ const Header = ({ useravatar }) => {
         />
         <div className={styles.searchsolidParent}>
           <button className={styles.searchsolid}>
-            <img className={styles.vectorIcon4} alt="" src="/vector4@2x.png" />
+            <img className={styles.vectorIcon5} alt="" src="/vector@2x.png" />
           </button>
           <button className={styles.microphonesolidWrapper}>
             <img
@@ -51,10 +56,14 @@ const Header = ({ useravatar }) => {
       </div>
       <div className={styles.videosolidParent}>
         <button className={styles.videosolid}>
-          <img className={styles.vectorIcon5} alt="" src="/vector5@2x.png" />
+          <div className={styles.vectorContainer}>
+            <img className={styles.vectorIcon6} alt="" src="/vector5@2x.png" />
+          </div>
         </button>
         <button className={styles.videosolid}>
-          <img className={styles.vectorIcon6} alt="" src="/vector6@2x.png" />
+          <div className={styles.vectorFrame}>
+            <img className={styles.vectorIcon7} alt="" src="/vector6@2x.png" />
+          </div>
         </button>
         <img className={styles.avatarIcon} alt="" src={useravatar} />
       </div>

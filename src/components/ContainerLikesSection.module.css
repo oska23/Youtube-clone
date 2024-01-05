@@ -1,0 +1,275 @@
+.groupIcon {
+  position: relative;
+  width: 18px;
+  height: 16.9px;
+  object-fit: cover;
+}
+.approve2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 3px;
+}
+.div {
+  flex: 1;
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #75839d;
+  text-align: left;
+}
+.approve2Parent,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrapper {
+  width: 28px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.approve2Parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: center;
+  gap: 4px;
+}
+.groupIcon1 {
+  position: relative;
+  width: 18px;
+  height: 14.1px;
+  object-fit: cover;
+}
+.approve1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+.dislike {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #75839d;
+  text-align: left;
+}
+.dislikeWrapper,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dislikeWrapper {
+  width: 52px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: center;
+  gap: 4px;
+}
+.vectorIcon {
+  position: relative;
+  width: 20px;
+  height: 18px;
+  object-fit: cover;
+}
+.frameWrapper,
+.shareoutline,
+.shareoutlineParent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shareoutline {
+  overflow: hidden;
+  flex-direction: column;
+  padding: 3px 2px;
+}
+.frameWrapper,
+.shareoutlineParent {
+  flex-direction: row;
+}
+.frameWrapper {
+  flex-shrink: 0;
+}
+.shareoutlineParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  gap: 3px;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 18px;
+  height: 20px;
+  object-fit: cover;
+}
+.downloadAltoutline {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 3px;
+}
+.downloadWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.downloadAltoutlineParent,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.downloadAltoutlineParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.frameContainer {
+  align-self: stretch;
+  gap: 10px;
+}
+.vectorIcon2 {
+  position: relative;
+  width: 13.9px;
+  height: 20px;
+  object-fit: cover;
+}
+.bookmarkFullsolid {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 5px;
+}
+.bookmark {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #0061ff;
+  text-align: left;
+}
+.bookmarkFullsolidParent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameButton,
+.frameParent,
+.likessectionInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameParent,
+.likessectionInner {
+  flex-direction: row;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 17px;
+}
+.likessectionInner {
+  height: 62px;
+}
+.vectorIcon3 {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+}
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.likessection,
+.menubuttonsmall {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.menubuttonsmall {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: none;
+  justify-content: center;
+}
+.likessection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 11px;
+  gap: 31px;
+  text-align: left;
+  font-size: 16px;
+  color: #75839d;
+  font-family: Inter;
+}
+@media screen and (max-width: 1377px) {
+  .bookmarkFullsolidParent,
+  .frameButton {
+    display: none;
+  }
+  .likessectionInner {
+    display: flex;
+    width: auto;
+    align-self: unset;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .frameContainer,
+  .likessectionInner {
+    display: flex;
+  }
+  .menubuttonsmall {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .bookmarkFullsolidParent,
+  .frameButton,
+  .frameContainer,
+  .frameGroup,
+  .frameParent,
+  .likessectionInner {
+    display: none;
+  }
+  .menubuttonsmall {
+    display: flex;
+  }
+}
